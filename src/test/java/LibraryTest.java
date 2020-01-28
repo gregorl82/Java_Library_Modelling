@@ -72,6 +72,6 @@ public class LibraryTest {
         library.addBook(book3);
         library.addBook(book4);
         library.addBook(book5);
-        assertEquals(2, library.booksByGenre("Sci-Fi"));
+        assertEquals(2, library.numberOfBooksByGenre("Sci-Fi"));
     }
 }
